@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container{
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
+}
+
+h1{
+    color: #fff;
+    text-shadow: 1px 1px 4px #000;
+}
+
+.one{
+    background-image: url("img 3/coding.jpg");
+    background-repeat: repeat;
+}
+.two{
+    background-image: url("img 3/Cubing.jpg");
+    background-repeat: repeat;
+}
+
+.three{
+    background-image: url("img 3/Swimming.jpg");
+    background-repeat: repeat;
+}
+.four{
+    background-image: url("img 3/Tennis.jpg");
+    background-repeat: repeat;
+}
+.five{
+    background-image: url("img 3/Swollen\ logo.jpg");
+    background-repeat: repeat;
+}
